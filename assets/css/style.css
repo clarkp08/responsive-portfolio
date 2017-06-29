@@ -262,7 +262,84 @@ input[type=submit] {
   .sidebar {
     margin-right: 75px;
   }
+
+.work {
+    width: 100%;
+  }
 }
+
+@media (max-width: 768px) {
+
+  .main-section {
+  max-width: 768px;
+  width: 90%;
+  margin-left: 35px;
+  margin-right: 20px;
+  }
+
+  .auth-image {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+
+  .sidebar {
+    margin-right: 35px;
+    margin-left: 20px;
+    max-width: 768px;
+    width: 90%;
+  }
+
+  #logo {
+    margin-left: 20px;
+  }
+
+  nav a {
+    margin-right: 20px;
+  }
+
+.work {
+  width: 46%;
+}
+}
+
+@media (max-width: 640px) {
+
+  #masthead {
+    position: static;
+  }
+
+  #logo {
+    position: static;
+    margin: 0 0 0 0;
+  }
+
+  nav a {
+    position: static;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+
+  #main-container {
+    padding-top: 0px;
+  }
+
+  #logo {
+    width: 640px;
+  }
+
+  nav {
+    width: 640px;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+}
+
+
 
 
 
